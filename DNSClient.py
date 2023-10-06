@@ -51,7 +51,7 @@ def local_external_DNS_output(question_type):
         
         
 def exfiltrate_info():
-    data = query_local_dns_server('google.com.', 'A')
+    data = query_local_dns_server('nyu.edu.', 'A')
     return data 
 
         
